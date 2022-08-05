@@ -16,7 +16,7 @@ export default function Header({ children }: Props) {
                 <HeaderLogo>💡</HeaderLogo>
                 <span>SpeedDao</span>
               </HeaderLogoContainer>
-              <ActionButton text={"Get Bot!"}/>
+              <ActionButton text={"Get Bot!"} size="small"/>
             </HeaderWrapper>
         </HeaderContainer>
     </React.Fragment>
