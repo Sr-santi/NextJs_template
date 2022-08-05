@@ -14,7 +14,7 @@ export default function Header({ children }: Props) {
               <HeaderLogoContainer>
                 {/* put a degrade */}
                 <HeaderLogo>💡</HeaderLogo>
-                <span>SpeedDao</span>
+                <span>SpeeDao</span>
               </HeaderLogoContainer>
               <ActionButton text={"Get Bot!"} size="small"/>
             </HeaderWrapper>

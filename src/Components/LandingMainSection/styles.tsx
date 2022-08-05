@@ -16,6 +16,7 @@ export const LandingMainSectionContainer = styled.div`
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    position: relative;
 `
 
 export const Title = styled.h1<TitleProps>`
@@ -23,6 +24,7 @@ export const Title = styled.h1<TitleProps>`
     max-widht: 550px;
     font-weight: 600;
     font-family: 'Montserrat';
+    z-index: 10;
 
     & span {
         color: #cd134b;
@@ -44,7 +46,6 @@ export const Title = styled.h1<TitleProps>`
 
 export const SubTitle = styled.p`
     margin-top: 25px;
-    color: #81869b;
     font-weight: 500;
     font-size: 24px;
     max-width: 750px;

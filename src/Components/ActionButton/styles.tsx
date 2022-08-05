@@ -17,6 +17,8 @@ export const ActionButtonWrapper= styled.div<ButtonProps>`
     border-radius: 15px;
     font-size: ${(props) => props.size === "small" ? "18px" : props.size === "medium" ? "28px" : "36px"};
     transition: all 0.5s;
+    position: relative;
+    z-index: 10;
 
     &:hover {
         background: linear-gradient(180deg,#df7e97,#cf174f);

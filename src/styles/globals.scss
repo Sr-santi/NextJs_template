@@ -9,9 +9,26 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   // colors
   color: white;
-  background: #1b1e29;
-  background-image: url("https://d14eu5yur8w3te.cloudfront.net/cstatic/landing-page-underlay.png");
-  object-fit: contain;
+  background: #1b1e29; //change
+  //background-image: url("https://d14eu5yur8w3te.cloudfront.net/cstatic/landing-page-underlay.png");
+  //filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(130deg) brightness(95%) contrast(80%);
+  /* background-repeat: no-repeat;
+  background-size: cover; */
+
+   &::before {
+     content: "";
+     position: absolute;
+     top: 0px;
+     left: 0px;
+     width: 100vw;
+     height: 100vh;
+     z-index: 0;
+     background-image: url("https://d14eu5yur8w3te.cloudfront.net/cstatic/landing-page-underlay.png");
+     background-repeat: no-repeat;
+     background-size: cover;
+     filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(130deg) brightness(95%) contrast(80%);
+     //invert(35%) sepia(90%) saturate(3380%) hue-rotate(-136deg) brightness(95%) contrast(70%)
+   }
 }
 
 a {
