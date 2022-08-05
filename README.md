@@ -1,7 +1,4 @@
-# Speedao-Front
-
-Landing Page for the SpeeDao project, a bot that is going to be easier participe in DAO's 
-let's go to the moon 🌝 together 🤟🏽
+# Next.js Template
 
 ## Getting Started
 
