@@ -1,3 +1,4 @@
+import LandingMainSection from '@Components/LandingMainSection'
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
@@ -10,10 +11,7 @@ const Home: NextPage = () => {
     <div className={styles.container}>
       <LadingLayout>
         <Header></Header>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
+        <LandingMainSection></LandingMainSection>
         <p className={styles.description}>
           Get started by editing{' '}
           <code className={styles.code}>pages/index.tsx</code>
