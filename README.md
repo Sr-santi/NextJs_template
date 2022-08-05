@@ -9,3 +9,8 @@ npm run dev
 # or
 yarn dev
 ```
+
+## Includes:
+- Tailwind
+- Basic folder structure
+- Sass configuration
