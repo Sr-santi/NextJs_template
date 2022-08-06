@@ -25,6 +25,7 @@ export const Title = styled.h1<TitleProps>`
     font-weight: 600;
     font-family: 'Montserrat';
     z-index: 10;
+    text-shadow: #fff 0px 0px 10px, #fff 0px 0px 1px, #fff 0px 0px 1px, #fff 0px 0px 1px, #fff 0px 0px 1px, #fff 0px 0px 1px;
 
     & span {
         color: #cd134b;
