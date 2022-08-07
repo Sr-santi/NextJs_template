@@ -13,19 +13,19 @@ export default function CardSection({ children }: Props) {
         <CardSectionContainer>
             <Card>
                 <CardTitle>Documentation &rarr;</CardTitle>
-                <CardText>Find in-depth information about Next.js features and API.</CardText>
+                <CardText>Find in-depth information about SpeeDao features and API.</CardText>
             </Card>
             <Card>
-                <CardTitle>Documentation &rarr;</CardTitle>
-                <CardText>Find in-depth information about Next.js features and API.</CardText>
+                <CardTitle>Quick start &rarr;</CardTitle>
+                <CardText>An easy example to start using an amazing tool in your Discord channel.</CardText>
             </Card>
             <Card>
-                <CardTitle>Documentation &rarr;</CardTitle>
-                <CardText>Find in-depth information about Next.js features and API.</CardText>
+                <CardTitle>Getting important information about your DAO &rarr;</CardTitle>
+                <CardText>Simple commands to know the important details quickly.</CardText>
             </Card>
             <Card>
-                <CardTitle>Documentation &rarr;</CardTitle>
-                <CardText>Find in-depth information about Next.js features and API.</CardText>
+                <CardTitle>Vote directly in Discord &rarr;</CardTitle>
+                <CardText>Participate in an easy way, it has never been so easy.</CardText>
             </Card>
         </CardSectionContainer>
     </React.Fragment>
